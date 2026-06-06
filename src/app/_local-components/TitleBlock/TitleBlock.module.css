@@ -1,0 +1,15 @@
+.titleWrapper {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  margin: auto;
+}
+  .titleWrapper h1 {
+    text-align: center;
+    font-size: 1.2vw;
+    font-weight: 400;
+  }
+  .titleWRapper h4 {
+    text-align: center;
+    font-size: 0.6vw;
+  }

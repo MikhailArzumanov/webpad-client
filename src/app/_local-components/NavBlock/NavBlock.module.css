@@ -1,0 +1,25 @@
+.navWrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 12px;
+}
+  .navWrapper .verticalDivisor{
+    width: 1px;
+    height: 100%;
+    background-color: black;
+  }
+  .navWrapper p {
+    height: fit-content;
+    margin: auto 0;
+  }
+
+.link {
+  transition: color 1s ease;
+
+  color: black;
+  cursor: pointer;
+}
+.link:hover {
+  color: blue;
+}

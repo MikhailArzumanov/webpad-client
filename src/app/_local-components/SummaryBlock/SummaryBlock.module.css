@@ -1,0 +1,12 @@
+.appSummary{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  border-top: 1px solid black;
+  padding: 0.6vw;
+  text-align: center;
+}
+  .appSummary hr{
+    margin: auto;
+  }

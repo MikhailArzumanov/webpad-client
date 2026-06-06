@@ -1,0 +1,26 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 45vw;
+  height: 15vw;
+  margin-top: 10vh;
+  border: 1px solid black;
+  border-radius: 1vw;
+  padding: 1vw;
+
+  display: grid;
+  grid-template-rows: 1fr 2fr 2fr;
+}
+  .container p {
+    padding: 0.6vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .container .navBlock{
+    justify-content: center;
+  }
