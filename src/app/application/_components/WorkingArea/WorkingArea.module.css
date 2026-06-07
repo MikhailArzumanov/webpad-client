@@ -1,0 +1,53 @@
+.mainGrid {
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+  grid-template-rows: 22px 1fr;
+}
+  .mainGrid .navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    font-size: 14px;
+    height: 100%;
+  }
+    .navBar .navBarBlock{
+      border-right: 1px solid black;
+      width: fit-content;
+      display: grid;
+      grid-template-columns: 20px 1fr 20px;
+    }
+      .indicator{
+        width: 9px;
+        height: 9px;
+        margin: auto;
+
+        border-radius: 9px;
+      }
+      .isSaved{
+        background: #66dd66;
+      }
+      .isNotSaved{
+        background: #dd6666;
+      }
+      .nameWrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+        .nameWrapper div{
+          text-align: center;
+        }
+
+      .closingWrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+        .closingWrapper div{
+          text-align: center;
+        }
+  .mainArea{
+    border-top: 1px solid black;
+  } 
