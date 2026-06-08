@@ -1,0 +1,25 @@
+.container{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 6px;
+
+  font-size: 13.4px;
+}
+  .leftPart{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: inherit;
+
+    width: 40%;
+  }
+    .leftPart .logo{
+      margin: 2px;
+    }
+  .rightPart{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    width: 40%;
+  }
