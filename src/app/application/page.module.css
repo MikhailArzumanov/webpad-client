@@ -3,7 +3,7 @@
   width: 100vw;
 
   display: grid;
-  grid-template-rows: 40px 1fr;
+  grid-template-rows: 20px 1fr;
   grid-template-columns: 40px 120px 1fr;
 }
   .mainGrid .upperLine{
